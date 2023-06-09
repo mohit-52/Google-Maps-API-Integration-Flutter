@@ -41,6 +41,10 @@ class _PolygonScreenState extends State<PolygonScreen> {
       fillColor: Colors.red.withOpacity(1),
       strokeWidth: 4)
     );
+
+    setState(() {
+
+    });
   }
 
 

@@ -1,16 +1,4 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:google_maps/polygon_screen.dart';
-import 'package:google_maps/polyline.dart';
-import 'package:google_maps/user_current_location.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
-
-import 'convert_latlng_to_address.dart';
-import 'custom_marker_info_window.dart';
-import 'custom_marker_screen.dart';
-import 'google_places_api.dart';
-import 'home_screen.dart';
 import 'network_image_marker.dart';
 
 void main() {

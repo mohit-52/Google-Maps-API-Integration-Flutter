@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_maps/polygon_screen.dart';
 import 'package:google_maps/user_current_location.dart';
 
 import 'convert_latlng_to_address.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const CustomMarkerInfoWindow(),
+      home: const PolygonScreen(),
     );
   }
 }
